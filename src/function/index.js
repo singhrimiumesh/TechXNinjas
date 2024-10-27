@@ -6,7 +6,7 @@
  * @returns {Response} https://developer.mozilla.org/en-US/docs/Web/API/Response
  */
 async function handleRequest(request, args) {
-  const message = `Oi, Brasil! 🌞 Rimi here from India, just admiring all the wonders of your country from my screen 🌎✨ and wishing I could experience it in real life! I studied about Brazil back in 10th grade 📚, and it left me dreaming of your stunning beaches 🏖️, legendary football ⚽️, music 🎶 and amazing festas 🎉! Keep the vibes just as they are—I’ll be there someday! 🍹💃💙`;
+  const message = `Oi, Azion Brazilian Community! 🌞 Rimi here from India. I just discovered your incredible work in edge computing, and I’m excited to learn more! 💻✨ I’ve always admired Brazil from afar, especially after studying about it in 10th grade 📚. Your stunning beaches 🏖️, legendary football ⚽️, and vibrant culture 🎉 have me dreaming of visiting someday! Keep up the amazing work—can’t wait to connect more! 🍹💃🎶💙`;
 
   return new Response(message, {
     headers: {
