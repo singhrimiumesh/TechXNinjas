@@ -1,0 +1,42 @@
+{
+  "name": "TechXNinjas",
+  "bucket": "",
+  "preset": "javascript",
+  "env": "production",
+  "prefix": "20241027150311",
+  "not-first-run": true,
+  "function": {
+    "id": 31260,
+    "name": "__DEFAULT__",
+    "file": ".edge/worker.js",
+    "args": "azion/args.json",
+    "instance-id": 29947,
+    "instance-name": "__DEFAULT__",
+    "cache-id": 182289
+  },
+  "application": {
+    "id": 1730042200,
+    "name": "__DEFAULT__"
+  },
+  "domain": {
+    "id": 1730040855,
+    "name": "TechXNinjas",
+    "domain_name": "i9quo75zi3.map.azionedge.net",
+    "url": "https://i9quo75zi3.map.azionedge.net"
+  },
+  "rt-purge": {
+    "purge_on_publish": true
+  },
+  "origin": [],
+  "rules-engine": {
+    "created": false,
+    "rules": [
+      {
+        "id": 311852,
+        "name": "Execute Edge Function",
+        "phase": "request"
+      }
+    ]
+  },
+  "cache-settings": []
+}
