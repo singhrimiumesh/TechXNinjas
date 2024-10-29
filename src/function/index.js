@@ -65,6 +65,7 @@ async function handleRequest(request, args) {
           text-align: center;
           line-height: 1.6;
           z-index: 10;
+          font-weight: bold;
         }
         h1 {
           font-size: 1.8em;
