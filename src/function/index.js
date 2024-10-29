@@ -36,8 +36,8 @@ async function handleRequest(request, args) {
           align-items: center;
         }
         .diamond {
-          width: 70%;
-          height: 70%;
+          width: 85%;
+          height: 85%;
           background: #FFCC29;
           clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
           display: flex;
@@ -45,8 +45,8 @@ async function handleRequest(request, args) {
           align-items: center;
         }
         .circle {
-          width: 30%;
-          height: 30%;
+          width: 50%;
+          height: 50%;
           background: #002776;
           border-radius: 50%;
           display: flex;
@@ -58,7 +58,7 @@ async function handleRequest(request, args) {
         .container {
           position: relative;
           max-width: 600px;
-          background: #fff;
+          background: rgba(255, 255, 255, 0.8);
           border-radius: 10px;
           padding: 20px;
           box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
