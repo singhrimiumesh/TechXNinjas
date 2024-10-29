@@ -45,8 +45,8 @@ async function handleRequest(request, args) {
           align-items: center;
         }
         .circle {
-          width: 50%;
-          height: 50%;
+          width: 45%;
+          height: 45%;
           background: #002776;
           border-radius: 50%;
           display: flex;
